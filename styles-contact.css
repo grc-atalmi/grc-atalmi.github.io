@@ -60,31 +60,34 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks_bg.png)
+  background: url(images/background.jpg)
 		center center fixed no-repeat;
 		background-size:cover;
+		font-family: superior-title, serif;
 
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%;
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	border-radius: 30px 150px;
+ 	background: rgba(256, 256, 256, .60); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/*border: 4px dashed white;*/
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	border: 40px;
 	text-align: center;
 }
 
-h1 {
+/*h1 {
 	font-family: superior-title, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -92,14 +95,14 @@ h1 {
     margin: 0px auto 10px auto;
     color: #fff;
 }
-
+*/
 h2 {
 	font-family: superior-title, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #996633;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -110,19 +113,68 @@ p {
 	font-style: normal;	
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+	letter-spacing: 5px;
+    color: #d2a679;
 }
 nav{
-	font-family: serif;
+	font-family: superior-title, serif;
 	font-size: 1.5em;
-	width: 400px;
+	width: 80%;
+	padding: 20px 0;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3 px 0;
 	text-align: center;
 	margin-top: 2em;
 }
 
+nav ul  {
+	list-style: none;
+	text-align: center;
+		letter-spacing: 2px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li  {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color:#604020 ;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+	transition: all .5s;
+}
+nav ul li a:hover {
+	color:bisque
+}
+
+nav ul li a{
+	position: relative;
+}
+
+nav ul li a:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #333;
+	height: 1px;
+}
+nav ul li a:hover:after {
+	width: 100%;
+}
+
+
+
+/*
 nav li{
 	display:inline;
 }
@@ -142,4 +194,5 @@ a:hover{
 	color:black;
 	background: pink;
 }
+*/
 

@@ -103,7 +103,7 @@ h2 {
 	font-size: 1.5em;
     line-height: 1.4;
     color: #996633;
-    padding: 0px 0px;
+    padding: 20px 0px;
 	letter-spacing: 2px;
     margin: 0px auto 25px auto;
 }
@@ -114,6 +114,7 @@ p {
 	font-style: normal;	
 	font-size: 1.2em;
     line-height: 1.6;
+	padding: 20px 0;
 	letter-spacing: 3px;
     color: #d2a679;
 }
@@ -122,7 +123,6 @@ nav{
 	font-size: 1.5em;
 	width: 80%;
 	padding: 20px 0;
-	color:darkgreen ;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 2em;
@@ -151,7 +151,7 @@ nav ul li a:before {
 	transition: all .5s;
 }
 nav ul li a:hover {
-	color:burlywood
+	color:#d2a679
 }
 
 nav ul li a{

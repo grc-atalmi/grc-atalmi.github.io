@@ -72,7 +72,7 @@ html, body {
 .center {
     width: 80%;
 	max-width: 800px;
-	padding: 1%;
+	padding: 12%;
     margin: 100px auto;
 	border-radius: 30px 150px;
  	background: rgba(256, 256, 256, .60); /*this uses opacity of 75% for the background color*/
@@ -103,7 +103,7 @@ h2 {
 	font-size: 1.5em;
     line-height: 1.4;
     color: #996633;
-    padding: 0px -20px;
+    padding: 0px 0px;
 	letter-spacing: 2px;
     margin: 0px auto 25px auto;
 }
@@ -114,7 +114,7 @@ p {
 	font-style: normal;	
 	font-size: 1.2em;
     line-height: 1.6;
-	/*padding: 05px 0px;*/
+	padding: 05px 0px;
 	letter-spacing: 3px;
     color: #d2a679;
 }
